@@ -1,0 +1,169 @@
+body{
+    font-family: 'Work Sans', sans-serif;
+    margin: 15px;
+}
+header{
+    background-color: #70a48b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 160px;
+   
+}
+.locations{
+    width: 90%
+    margin-top: 25px;
+
+}
+.top-logo{
+    position: relative;
+    height:70px;
+    justify-content: center;
+    margin:10px;
+    padding-top:20px;
+    padding-bottom: 150px;
+    width: 90%;
+    
+}
+.Nav{
+    width: 90%;
+    color: white;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 2px solid white;
+    border-radius: 10px;
+    position: absolute;
+    align-items: center;
+    padding: 10px;
+    margin-top:100px ;
+    height: 30px;
+    right: 20px;
+    
+}
+
+li{
+    width:90%;
+    position: relative;
+    margin: 10px;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+    #donation{
+    background-color: #1f211c;
+    height: 50px;
+    display:relative;
+    justify-content: space-evenly;
+    width: 150px;
+    border-radius: 10px;
+      }
+
+h2{
+    margin-top: 0%;
+    display:flex;
+    width: 90%; 
+    align-items: center;
+}
+.content{
+    flex-direction:column;
+    margin: 0px 10px;
+}
+.buttons{
+    display: flex;
+    color: white;
+    background-color: #70a48b;
+    border:2px solid #1f211c;
+    /* width: 35em; */
+    padding: 5px;
+    border-radius: 1em;
+    justify-content: left;
+    margin-bottom: 5px;
+}
+
+.friends{
+    width: 100%;
+   
+}
+.picContainer{
+    width: 75%;
+    margin-bottom: 10px;
+    margin-right: 20px; 
+}
+.pix{
+    width: 200px;
+    flex-direction:column;
+    line-height: 20%;
+    justify-content: left;
+}
+
+footer {
+    display: flex;
+    background-color: #70a48b;
+    width: 100%;
+    height: 65px;
+    position:fixed;
+    bottom: 0px;
+}
+.botLogo{
+    height: 60px;
+    border-radius: 10px;
+
+}
+@media screen and (min-width: 768px)
+{
+    header{
+        flex-direction: row;
+        height: 100px;
+        padding: 10px;
+    }
+    .top-logo{
+        height: 75px;
+        border: 20px;
+    }
+    .Nav{
+        position: relative;
+        display:flex;
+        color: white;
+        justify-content: right;
+        align-items: center;
+        border: 2px solid white;
+        border-radius: 10px;
+        width: 35%;
+        position: absolute;
+    
+    }
+    li{
+        margin: 10px;
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .content{
+        flex-direction:row;
+        margin: 0px 10px;
+    }
+    .locations{
+        width: 43%;
+    }
+    
+    .friends{
+        width: 66%;
+
+    
+    } 
+    .picContainer{
+        width:80%;
+        border-radius: 10px;
+        margin: auto;
+        margin-bottom: 75px;
+    }
+    .pix{
+         border-radius: 10px;
+         margin:5px;
+         
+       
+  
+    } 
+}
