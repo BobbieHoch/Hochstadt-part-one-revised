@@ -1,63 +1,56 @@
 body{
     font-family: 'Work Sans', sans-serif;
-    margin: 15px;
+  
 }
-header{
+header {
     background-color: #70a48b;
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 160px;
-   
-}
-.locations{
-    width: 90%
+    height: 240px;
+     }
+  
+.locations {
+    margin: 0em 4em;
+    width: 90%;
     margin-top: 25px;
-
+    
 }
 .top-logo{
-    position: relative;
-    height:70px;
-    justify-content: center;
-    margin:10px;
-    padding-top:20px;
-    padding-bottom: 150px;
-    width: 90%;
-    
+    height: 70px;
+    flex-direction: center;
+    float: right;
+    margin-top: 20px;
+    margin-bottom: 20px;
+        
 }
 .Nav{
-    width: 90%;
-    color: white;
-    flex-direction: row;
-    justify-content: space-between;
     border: 2px solid white;
+    color: white;
+    width: 75%;
+    float: none;
     border-radius: 10px;
-    position: absolute;
-    align-items: center;
-    padding: 10px;
-    margin-top:100px ;
-    height: 30px;
-    right: 20px;
-    
-}
+    padding: 25px 10px;
+    display: inline;  
+    }
 
 li{
-    width:90%;
-    position: relative;
-    margin: 10px;
+    margin-right: 1.5em;
+    /* margin: 150px; */
+    height: 90px;
     list-style: none;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    display: inline;  
+    align-items: stretch; 
 }
-    #donation{
+#donation{
     background-color: #1f211c;
-    height: 50px;
-    display:relative;
-    justify-content: space-evenly;
+    margin: 40px;
+    padding: 10px;
+    /* justify-content:right; */
     width: 150px;
     border-radius: 10px;
-      }
+      
+}
 
 h2{
     margin-top: 0%;
@@ -70,31 +63,34 @@ h2{
     margin: 0px 10px;
 }
 .buttons{
-    display: flex;
     color: white;
     background-color: #70a48b;
     border:2px solid #1f211c;
-    /* width: 35em; */
+    width: 35em;
+    padding-left: 10px;
     padding: 5px;
     border-radius: 1em;
-    justify-content: left;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 .friends{
     width: 100%;
    
 }
-.picContainer{
-    width: 75%;
+.pic{
     margin-bottom: 10px;
-    margin-right: 20px; 
+    border-radius: 10px;
+    border: 20px;
+    width: 35%;
+    height:20%;
+    align-content: center;
 }
 .pix{
-    width: 200px;
-    flex-direction:column;
-    line-height: 20%;
-    justify-content: left;
+    margin: 0em 4em;
+    flex-direction:column;  
+    /* border: 20px; */
+    align-content: center;
+
 }
 
 footer {
@@ -110,60 +106,64 @@ footer {
     border-radius: 10px;
 
 }
+
 @media screen and (min-width: 768px)
+
 {
     header{
         flex-direction: row;
-        height: 100px;
-        padding: 10px;
+        height: 150px;
+       
     }
     .top-logo{
-        height: 75px;
+        height:75px;
         border: 20px;
+        /* justify-content: flex-end; */
     }
     .Nav{
-        position: relative;
-        display:flex;
-        color: white;
+        float:right;
+        /* position: relative; */
+        padding:10px 25p;
         justify-content: right;
-        align-items: center;
-        border: 2px solid white;
-        border-radius: 10px;
-        width: 35%;
-        position: absolute;
-    
+        
     }
     li{
-        margin: 10px;
+        margin: 5px;
         list-style: none;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        display: inline;
+        /* justify-content:right; */
+        /* align-items: center; */
     }
     .content{
         flex-direction:row;
         margin: 0px 10px;
+        width: 33%;
+        height:fit-content;
+
+    }
+    h3{
+        width: 33%;
     }
     .locations{
-        width: 43%;
+        width: 48%;
+    }
+    .buttons{
+        width:33%;
     }
     
     .friends{
-        width: 66%;
-
-    
+        width: 48%;
+        /* float:right */
     } 
-    .picContainer{
-        width:80%;
+    .pix{
+        justify-content:right;
+        width:66%;
         border-radius: 10px;
-        margin: auto;
         margin-bottom: 75px;
     }
-    .pix{
-         border-radius: 10px;
-         margin:5px;
-         
-       
-  
+    .pic{
+        border-radius: 10px;
+        margin:5px;
+           
     } 
 }
