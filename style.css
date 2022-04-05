@@ -106,32 +106,32 @@ footer {
 }
 @media screen and (min-width: 768px){
   
-    /* header{
+    header{
         flex-direction: row;
-        height: 150px;
+        
+        height:20%;
        
-    } */
-    /* .top-logo{
-        height:75px;
+    } 
+    .top-logo{
+        height:275px;
         margin-left: 10px;
-        border: 20px; 
-        justify-content: flex-end;
+        border: 60px; 
+      
     }
-    /* .Nav{
-        float:right;
+    .Nav{
+        height: 150px;
         margin-left: 575px;
         Margin-right: 225px;
-        position: relative; 
-        justify-content: center;
-    } */
-    /* #donation{
+       
+       
+    } 
+     #donation{
         margin:5px 0px;
-    } */
-        
     }
-    /* ul{
+    
+    ul{
         float:inline-end;
-        justify-content:space-evenly; */
+        justify-content:space-evenly; 
     }
     /* li{
         margin: 5px;
@@ -147,27 +147,34 @@ footer {
 
         width: 375px;
         Height: 100px;
-        /* height:fit-content; */
-    }
-    */
+        /* height:fit-content; 
+    }*/
+    
     /* .locations{
         width: 775px;
         } */
-    /* .buttons{
-        width:63%; 
-    } */
+     .buttons{
+        width:33%; 
+        height: 185px;
+    } 
     
-    /* .friends{
+    .friends{
         position: relative;
-        margin-left: 550px;
-        width: 48%;
+        margin-left: 1275px;
+        width: 60%;
         justify-content: end;
-    }  */
-    /* .pix{
-        width: 750px; 
-        float:inline-end;
+    }  
+     .pix{
+        width: 60%; 
+        position: relative;
         border-radius: 10px;
-        margin-bottom: 75px;
-        position:relative; */
-
-    } */
+        margin-left: 1275px;
+     }
+        .pic{
+            border-radius: 20px;
+            width: 25%;
+            margin:25px;
+            margin-bottom: 10px;
+            margin-left: 2px;
+        }
+    } 
