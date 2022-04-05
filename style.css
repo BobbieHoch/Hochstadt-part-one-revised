@@ -9,34 +9,24 @@ header {
     align-items: center;
     height: 240px;
      }
-  
-.locations {
-    margin: 0em 4em;
-    width: 90%;
-    margin-top: 25px;
-    
-}
+
 .top-logo{
-    height: 70px;
-    flex-direction: center;
-    float: right;
-    margin-top: 20px;
-    margin-bottom: 20px;
-        
-}
+        height: 70px;
+        flex-direction: center;
+        margin: 20px 0px;
+    }
+
 .Nav{
     border: 2px solid white;
     color: white;
     width: 75%;
     float: none;
     border-radius: 10px;
-    padding: 25px 10px;
+    padding: 25px 0px;
     display: inline;  
-    }
-
+}
 li{
-    margin-right: 1.5em;
-    /* margin: 150px; */
+    margin: 1.5em ;
     height: 90px;
     list-style: none;
     display: inline;  
@@ -46,10 +36,10 @@ li{
     background-color: #1f211c;
     margin: 40px;
     padding: 10px;
-    /* justify-content:right; */
-    width: 150px;
     border-radius: 10px;
-      
+}
+.locations {
+    margin-top: 25px;
 }
 
 h2{
@@ -59,57 +49,59 @@ h2{
     align-items: center;
 }
 .content{
-    flex-direction:column;
-    margin: 0px 10px;
+    margin: 0px 90px 60px 90px;
+
 }
 .buttons{
     color: white;
     background-color: #70a48b;
     border:2px solid #1f211c;
-    width: 35em;
-    padding-left: 10px;
+    width: 45em;
+    margin: 0px 0px 25px 25px;
+    padding-left: 10px; 
     padding: 5px;
     border-radius: 1em;
-    margin-bottom: 10px;
+    margin-left: 30px ;
+}
+
+.textContent{
+    Width: 45em;
+    margin:10px 20;
 }
 
 .friends{
     width: 100%;
-   
 }
 .pic{
+    border-radius: 10px;
+    width: 40%;
+    margin:5px;
     margin-bottom: 10px;
-    border-radius: 10px;
-    border: 20px;
-    width: 35%;
-    height:20%;
-    align-content: center;
 }
+
 .pix{
-    margin: 0em 4em;
-    flex-direction:column;  
-    /* border: 20px; */
-    align-content: center;
+    width: 500px;
+    margin-bottom:45px;
 
-}
-
+} 
 footer {
-    display: flex;
-    background-color: #70a48b;
-    width: 100%;
-    height: 65px;
-    position:fixed;
-    bottom: 0px;
-}
+        position:fixed;
+        background-color: #70a48b;
+        height:105px;
+        width:100%;
+        bottom:0px;
+        margin-top: 4px;
+
+ }      
 .botLogo{
-    height: 60px;
-    border-radius: 10px;
-
+    position:fixed;
+    height: 100px;
+    background-color: #70a48b;
+    bottom:0px;
+   
 }
-
-@media screen and (min-width: 768px)
-
-{
+@media screen and (min-width: 768px){
+  
     header{
         flex-direction: row;
         height: 150px;
@@ -117,15 +109,26 @@ footer {
     }
     .top-logo{
         height:75px;
-        border: 20px;
+        margin-left: 10px;
+        /* border: 20px; */
         /* justify-content: flex-end; */
     }
     .Nav{
         float:right;
+        margin-left: 575px;
+        Margin-right: 225px;
         /* position: relative; */
         padding:10px 25p;
-        justify-content: right;
+        justify-content: center;
+    }
+    #donation{
+        margin:5px 0px;
+    }
         
+    }
+    ul{
+        float:inline-end;
+        justify-content:space-evenly;
     }
     li{
         margin: 5px;
@@ -136,34 +139,39 @@ footer {
     }
     .content{
         flex-direction:row;
-        margin: 0px 10px;
-        width: 33%;
-        height:fit-content;
+        margin-right: 550px;
+        margin-left:25px;
 
+        width: 375px;
+        Height: 100px;
+        /* height:fit-content; */
     }
-    h3{
-        width: 33%;
-    }
+   
     .locations{
-        width: 48%;
-    }
+        width: 775px;
+        }
     .buttons{
-        width:33%;
+        width:63%; 
     }
     
     .friends{
+        position: relative;
+        margin-left: 550px;
         width: 48%;
-        /* float:right */
+        /* justify-content: end; */
     } 
     .pix{
-        justify-content:right;
-        width:66%;
+        width: 750px; 
+        float:inline-end;
         border-radius: 10px;
         margin-bottom: 75px;
+        position:relative;
+
     }
-    .pic{
-        border-radius: 10px;
-        margin:5px;
-           
-    } 
-}
+    
+    .topRow{
+        position: relative;
+        display: flexbox;
+        margin-left: 550px;
+        flex-direction: row;
+    }
