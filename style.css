@@ -31,6 +31,7 @@ li{
     list-style: none;
     display: inline;  
     align-items: stretch; 
+    justify-content: center;
 }
 #donation{
     background-color: #1f211c;
@@ -49,15 +50,15 @@ h2{
     align-items: center;
 }
 .content{
-    margin: 0px 90px 60px 90px;
+    margin: 10px 20px;
 
 }
 .buttons{
     color: white;
     background-color: #70a48b;
     border:2px solid #1f211c;
-    width: 45em;
-    margin: 0px 0px 25px 25px;
+    width: 35em;
+    margin:25px;
     padding-left: 10px; 
     padding: 5px;
     border-radius: 1em;
@@ -66,17 +67,19 @@ h2{
 
 .textContent{
     Width: 45em;
-    margin:10px 20;
+    margin:10px 10px;
 }
 
 .friends{
     width: 100%;
+    margin-top: 75px;
 }
 .pic{
     border-radius: 10px;
-    width: 40%;
+    width: 45%;
     margin:5px;
     margin-bottom: 10px;
+    justify-items: center;
 }
 
 .pix{
@@ -87,7 +90,7 @@ h2{
 footer {
         position:fixed;
         background-color: #70a48b;
-        height:105px;
+        height:55px;
         width:100%;
         bottom:0px;
         margin-top: 4px;
@@ -95,48 +98,48 @@ footer {
  }      
 .botLogo{
     position:fixed;
-    height: 100px;
+    height: 40px;
+    margin:10px;
     background-color: #70a48b;
     bottom:0px;
    
 }
 @media screen and (min-width: 768px){
   
-    header{
+    /* header{
         flex-direction: row;
         height: 150px;
        
-    }
-    .top-logo{
+    } */
+    /* .top-logo{
         height:75px;
         margin-left: 10px;
-        /* border: 20px; */
-        /* justify-content: flex-end; */
+        border: 20px; 
+        justify-content: flex-end;
     }
-    .Nav{
+    /* .Nav{
         float:right;
         margin-left: 575px;
         Margin-right: 225px;
-        /* position: relative; */
-        padding:10px 25p;
+        position: relative; 
         justify-content: center;
-    }
-    #donation{
+    } */
+    /* #donation{
         margin:5px 0px;
-    }
+    } */
         
     }
-    ul{
+    /* ul{
         float:inline-end;
-        justify-content:space-evenly;
+        justify-content:space-evenly; */
     }
-    li{
+    /* li{
         margin: 5px;
         list-style: none;
         display: inline;
-        /* justify-content:right; */
-        /* align-items: center; */
-    }
+        justify-content:right;
+        align-items: center; */
+    /* }
     .content{
         flex-direction:row;
         margin-right: 550px;
@@ -146,32 +149,25 @@ footer {
         Height: 100px;
         /* height:fit-content; */
     }
-   
-    .locations{
+    */
+    /* .locations{
         width: 775px;
-        }
-    .buttons{
+        } */
+    /* .buttons{
         width:63%; 
-    }
+    } */
     
-    .friends{
+    /* .friends{
         position: relative;
         margin-left: 550px;
         width: 48%;
-        /* justify-content: end; */
-    } 
-    .pix{
+        justify-content: end;
+    }  */
+    /* .pix{
         width: 750px; 
         float:inline-end;
         border-radius: 10px;
         margin-bottom: 75px;
-        position:relative;
+        position:relative; */
 
-    }
-    
-    .topRow{
-        position: relative;
-        display: flexbox;
-        margin-left: 550px;
-        flex-direction: row;
-    }
+    } */
