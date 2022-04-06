@@ -7,62 +7,73 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 240px;
+    height: 20em;
+    width: 100%;
      }
-
 .top-logo{
-        height: 70px;
+     display: flex;
+        height: 90px;
         flex-direction: center;
-        margin: 20px 0px;
+        margin: 20px 20px; 
     }
 
 .Nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     border: 2px solid white;
     color: white;
-    width: 75%;
-    float: none;
+    align-items: center;
+    width: 60%; 
     border-radius: 10px;
-    padding: 25px 0px;
-    display: inline;  
-}
-li{
-    margin: 1.5em ;
-    height: 90px;
-    list-style: none;
-    display: inline;  
-    align-items: stretch; 
-    justify-content: center;
+    height: 25px;
+    padding:25px;
+   
 }
 #donation{
+    display: flex;
     background-color: #1f211c;
-    margin: 40px;
-    padding: 10px;
+    align-items: center;
+    padding: 15px;
     border-radius: 10px;
 }
-.locations {
-    margin-top: 25px;
+li{
+    display: flex;
+    margin: 1.5em ;
+    height: 5px;
+    list-style: none;
 }
 
+
+
 h2{
-    margin-top: 0%;
     display:flex;
+    margin-top: 0%;
     width: 90%; 
     align-items: center;
 }
-.content{
-    margin: 10px 20px;
-
+h3{
+    height:2em;
 }
+ .content{ 
+     display: flexbox;
+     flex-direction: column;
+    width:100%
+}
+.locations { 
+     width: 90%; 
+     margin-top: 25px;
+ 
+ } 
 .buttons{
+    display: flex;
     color: white;
     background-color: #70a48b;
     border:2px solid #1f211c;
-    width: 35em;
-    margin:25px;
-    padding-left: 10px; 
-    padding: 5px;
-    border-radius: 1em;
-    margin-left: 30px ;
+    padding:5px;
+    border-radius: 10px;
+    justify-content: left;
+    margin-bottom: 5px;
 }
 
 .textContent{
@@ -74,19 +85,23 @@ h2{
     width: 100%;
     margin-top: 75px;
 }
-.pic{
-    border-radius: 10px;
-    width: 45%;
-    margin:5px;
-    margin-bottom: 10px;
-    justify-items: center;
-}
-
 .pix{
-    width: 500px;
-    margin-bottom:45px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 45%;
+    margin-bottom:75px;
+    margin-right: 10px;
 
 } 
+.pic{
+    display: flex;
+    border-radius: 10px;
+    width: 55%;
+    margin:5px;
+    align-items:center;
+    margin-bottom: 10px; 
+}
 footer {
         position:fixed;
         background-color: #70a48b;
@@ -94,7 +109,6 @@ footer {
         width:100%;
         bottom:0px;
         margin-top: 4px;
-
  }      
 .botLogo{
     position:fixed;
@@ -106,75 +120,68 @@ footer {
 }
 @media screen and (min-width: 768px){
   
-    header{
-        flex-direction: row;
-        
-        height:20%;
+   header{ 
+        display: flex;
+        flex-direction: row; 
+        align-items: center;
+        height:15%;
        
     } 
     .top-logo{
-        height:275px;
+        height:15%; 
         margin-left: 10px;
-        border: 60px; 
-      
+        border-radius:10px;
+
     }
     .Nav{
-        height: 150px;
-        margin-left: 575px;
-        Margin-right: 225px;
-       
+        display:flex;
+        width:35%;
+        flex-direction:center;
+        margin-left:270px;
+        margin-right:15px;
        
     } 
      #donation{
         margin:5px 0px;
+        border-radius:10px;
     }
     
     ul{
-        float:inline-end;
+        height: 750px;
         justify-content:space-evenly; 
     }
-    /* li{
+    li{
         margin: 5px;
         list-style: none;
-        display: inline;
-        justify-content:right;
-        align-items: center; */
-    /* }
+        align-items: center; 
+    }
     .content{
-        flex-direction:row;
-        margin-right: 550px;
-        margin-left:25px;
-
-        width: 375px;
-        Height: 100px;
-        /* height:fit-content; 
-    }*/
-    
-    /* .locations{
-        width: 775px;
-        } */
-     .buttons{
-        width:33%; 
-        height: 185px;
+        display: flex;
+        flex-direction:column;
+        width:45%
+    }
+    .textContent{
+        width: 95%;
+    }
+   .buttons{
+        display: flex;
+        justify-content: left;
     } 
-    
     .friends{
-        position: relative;
-        margin-left: 1275px;
+        align-items: right;
         width: 60%;
-        justify-content: end;
+        justify-content:right;
     }  
      .pix{
-        width: 60%; 
-        position: relative;
-        border-radius: 10px;
-        margin-left: 1275px;
+        flex-direction: column;
+        width: 60%;
+        border-radius: 20px;
+        justify-content: right;
      }
         .pic{
-            border-radius: 20px;
-            width: 25%;
-            margin:25px;
-            margin-bottom: 10px;
-            margin-left: 2px;
+            display: flex;
+            flex-direction: column;
+            margin:5px;
+            width:40%;
         }
     } 
