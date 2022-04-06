@@ -7,14 +7,14 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 20em;
+    height: 25em;
     width: 100%;
      }
 .top-logo{
      display: flex;
         height: 90px;
         flex-direction: center;
-        margin: 20px 20px; 
+        margin: 20px 20px;  
     }
 
 .Nav{
@@ -23,7 +23,6 @@ header {
     justify-content: space-between;
     border: 2px solid white;
     color: white;
-    align-items: center;
     width: 60%; 
     border-radius: 10px;
     height: 25px;
@@ -33,18 +32,17 @@ header {
 #donation{
     display: flex;
     background-color: #1f211c;
-    align-items: center;
     padding: 15px;
     border-radius: 10px;
 }
+
 li{
     display: flex;
     margin: 1.5em ;
     height: 5px;
     list-style: none;
+    align-items: center;
 }
-
-
 
 h2{
     display:flex;
@@ -124,22 +122,19 @@ footer {
         display: flex;
         flex-direction: row; 
         align-items: center;
-        height:15%;
-       
+        height:15%; 
     } 
     .top-logo{
         height:15%; 
         margin-left: 10px;
         border-radius:10px;
-
     }
     .Nav{
         display:flex;
         width:35%;
         flex-direction:center;
         margin-left:270px;
-        margin-right:15px;
-       
+        margin-right:15px; 
     } 
      #donation{
         margin:5px 0px;
@@ -168,13 +163,14 @@ footer {
         justify-content: left;
     } 
     .friends{
+        display:inline-block;
         align-items: right;
         width: 60%;
-        justify-content:right;
+        justify-content:flex-end;
     }  
      .pix{
         flex-direction: column;
-        width: 60%;
+        width: 65%;
         border-radius: 20px;
         justify-content: right;
      }
@@ -182,6 +178,6 @@ footer {
             display: flex;
             flex-direction: column;
             margin:5px;
-            width:40%;
+            width:20%;
         }
     } 
